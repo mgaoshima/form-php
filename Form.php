@@ -152,6 +152,8 @@ class Form {
 		if (!$arg)
 			return false;
 
+		$subject = $arg['subject'];
+
 		$body = $arg['body'];
 
 		foreach ($data as $key => $value) {
